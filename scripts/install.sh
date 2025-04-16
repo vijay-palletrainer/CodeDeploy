@@ -9,10 +9,10 @@ cd $DEPLOY_DIR
 sudo chown -R ec2-user:ec2-user $DEPLOY_DIR
 
 # Create virtual environment
-python3 -m venv venv
+sudo python3 -m venv venv
 
 # Activate virtual environment
 source venv/bin/activate
 
 # Install requirements
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
